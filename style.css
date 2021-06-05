@@ -1,5 +1,142 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Dancing+Script:wght@500;700&family=Dosis:wght@200&family=Fjalla+One&family=Odibee+Sans&family=Open+Sans+Condensed:wght@300&family=Pompiere&family=Roboto+Condensed:wght@300;400;700&family=Yellowtail&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
+}
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+header{
+    margin-top: 5%;
+    position: relative;
+}
+.title{
+display: inline-block;
+}
+header img{
+    margin-top:5%;  
+}
+.title h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Yellowtail', cursive;
+    font-style: italic;
+    font-size: 40px;
+}
+.title h6{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left:7px;
+    font-size: 14px;
+    color: dimgray;
+}
+#icones{
+    position: absolute;
+    right:4.6%;
+    bottom: 5px;
+}
+#pint{
+    padding-left:7px;
+}
+.break{
+    margin-top: 30px;
+    background-image: url(assets/hr-img.png);
+    background-repeat: repeat;
+    width:905px;
+}
+.firstHead{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.firstHead h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+.firstHead h6{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(185, 185, 185);
+    font-weight: lighter;
+    font-size: large;
+
+}
+
+#print h6{
+    position: absolute;
+    right:18.1%;
+    top:70%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(185, 185, 185);
+    font-weight: lighter;
+    font-size: medium;
+}
+#print a{
+    position: absolute;
+    right:20.6%;
+    top:70.5%;
+
+}
+article{
+    margin-top: 25px;
+    color: dimgray;
+    width: 909px; 
+}
+#listOne{
+ position: absolute;
+    z-index: 1.5;
+    top:1220px ;
+    left: 270px;
+}
+#listTwo{
+    position: absolute;
+    z-index: 1.5;
+    top: 0px;
+    left: 400px;
+    width: 400px;
+}
+form label{
+    font-size: larger;
+    padding-top: 40px;
+}
+input{
+    margin-bottom: 20px;
+}
+.about img{
+    float: left;
+    margin-top: 20px;
+}
+#van{
+   position: relative;
+    margin-top: 26px;
+     left:15px;
+}
+#van p{
+    margin-top: 10px; 
+    width: 600px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+
+}
+button{
+    float: right;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(199, 65, 13);
+    margin-right: 35px;
+    color: aliceblue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: larger;
+    border: none;
+    margin-top: -56px;
+ 
+}
+footer{
+ margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+.footp {
+    margin-top: 30px;
+    color: rgb(185, 185, 185);
 }
